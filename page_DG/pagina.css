@@ -1,0 +1,764 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    font-family: "DM Sans", sans-serif;
+    background: #EAEAE0;
+    background-image: url('../img/imagem de fundo.png');
+    background-repeat: no-repeat;
+    background-position: right 112px;
+    background-size: 231px 380px;
+}
+
+
+
+.cabecalho {
+    width: 100%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #EAEAE0;
+}
+
+.cabecalho_links{
+    position: relative;
+    height: 32px;
+    background: #E0DED0;
+    border-radius: 16px;
+    font-size: 24px;
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,.1);
+    margin-right: 80px;
+    margin-left: 45px;
+
+}
+
+.cabecalho_links a{
+    font-size: 15px;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    text-align: center;
+   
+}
+
+.cabecalho_links .animation{
+
+    position: absolute;
+    height: 100%;
+    top: 0;
+    z-index: 0;
+    background: #BFC1A4;
+    border-radius: 8px;
+}
+
+.logo{
+    height: 91px;
+    width: 269px;
+}
+
+  .cabecalho_links a:nth-child(1){
+    width: 104px;
+}
+
+ .cabecalho_links a:nth-child(1):hover~.animation{
+    width: 100px;
+    left: 0;
+}
+
+.cabecalho_links a:nth-child(2){
+    width: 129px;
+}
+
+ .cabecalho_links a:nth-child(2):hover~.animation{
+    width: 160px;
+    left: 92px;
+}
+
+.cabecalho_links a:nth-child(3){
+    width: 115px;
+}
+
+ .cabecalho_links a:nth-child(3):hover~.animation{
+    width: 100px;
+    left: 250px;
+}
+
+.cabecalho_links a:nth-child(4){
+    width: 100px;
+}
+
+.cabecalho_links a:nth-child(4):hover~.animation{
+    width: 100px;
+    left: 365px;
+}
+
+.cabecalho_links a:nth-child(5){
+    width: 120px;
+}
+
+.cabecalho_links a:nth-child(5):hover~.animation{
+    width: 100px;
+    left: 483px;
+}
+
+
+
+.logo_contato{
+    display: flex;
+    align-items: center;
+    padding-left: 0%;
+    text-decoration: none;
+}
+
+.logo_contato IMG
+{
+    width: 28px;
+    margin: 0px 5px;
+}
+
+
+
+
+
+.bem-vindo {
+    display: flex;
+    text-align: center;
+}
+
+.bem-vindo SPAN
+{
+    display: inline;
+    color: #DB0800;
+    font-weight: 600;
+}
+
+.bem-vindo__titulo{
+    font-size: 36px;
+    width: max-content;
+    margin-top: 120px;
+
+}
+
+.bem-vindo__paragrafro{
+    margin: 0px;
+    width: 516px;;
+    text-align: left;
+}
+
+.texto_bem_vindo {
+    margin: 0px;
+    margin-top: 230px;
+    margin-left: 265px;
+}
+
+.imagem_canto_fixo {
+    height: 500px;
+    position: static;
+    background-image: none;
+    margin-top: 238px;
+}
+
+
+footer{
+    background-color: #BFC1A4;
+    
+}
+
+.direitos_privados{
+    font-size: 13px;
+    margin-top: 57px;
+    text-align: center;
+}
+
+.Roda_pé_menu{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+    margin-top: 37px;
+    list-style-type: none;
+    gap: 108px;
+   
+}
+
+.Roda_pé_menu a {
+    color: black;
+}
+
+
+.Roda_pé {
+
+    align-items: center;
+    height: 20vh;
+    position: absolute;
+    width: 100%;
+    opacity: 0.50;
+ 
+    
+}
+
+.texto_sobre_nos{
+    display: flex;
+
+
+}
+
+.conteudo_sobre_nos {
+    display: flex;
+    flex-direction: column;
+    margin-top: 292px;
+    gap: 20px;
+    margin-left: 204px;
+}
+
+.titulo_sobre_nos{
+    font-size: 36px;
+    color: #DB0800 ;
+    text-align: center;
+}
+
+.paragrafo_sobre_nos{
+    width: 707px;;
+    text-align: left;
+    
+}
+
+.imagem_entrada_automatizada{
+    height: 150px;
+}
+
+
+
+.Entrada_automatizada_conteudo{
+    
+        margin-top: -494px;
+        display: flex;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        margin-left: 493px;
+    }
+
+
+
+.Entrada_automatizada_texto{
+    flex-direction: column;
+}
+
+.titulo_entrada_automatizada{
+    color: #DB0800;
+    font-size: 22px;
+    margin-top: 0px;
+    margin-left: 9px;
+}
+
+.sub_titulo_entrada_autpmatizada{
+    color: #DB0800;
+    font-size: 18px;
+    margin-left: 9px;
+    margin-top: 4px;
+}
+
+.sub_titulo_entrada_autpmatizada2{
+
+    color: #DB0800;
+    font-size: 15px;
+    margin-left: 9px;
+    margin-top: 4px;
+}
+
+.paragrafo_entrada_automatizada2{
+    color: #DB0800;
+    font-size: 16px;
+    margin-left: 9px;
+    margin-top: 4px;
+}
+
+.paragrafo_entrada_automatizada{
+    width: 615px;
+    font-size: 16px;
+    margin-left: 9px;
+}
+
+.paragrafo_entrada_automatizada2{
+    width: 750px;
+    margin-left: 9px;
+}
+
+.erp_conteudo {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-left: 465px;
+    margin-top: 71px;
+}
+
+.erp_texto{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+     
+}
+
+.erp_titulo{
+    color: #DB0800;
+    font-size: 22px;
+    margin-left: 9px;
+}
+
+.erp_sub_titulo{
+    color: #DB0800;
+    font-size: 18px;
+    margin-left: 9px;
+    margin-top: 8px;
+}
+.erp_paragrafo{
+    width: 615px;
+    font-size: 16px;
+    margin-left: 9px;
+    margin-top: 8px;
+}
+
+.img_erp{
+    height: 144px;
+}
+
+.conteudo_clientes{
+    display: flex;
+    align-items: center;
+}
+
+
+.texto_clientes {
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+    gap: 20px;
+    margin-left: 132px;
+}
+
+.titulo_clientes{
+    color: #DB0800;
+    font-size: 22px;
+    margin-left: 15px;
+}
+
+.paragrafo_clientes{
+    margin-top: 195px;
+    width: 700px;
+    font-size: 16px;
+    text-align: left;
+    margin-left: 100px;
+}
+
+
+.img_pontal{
+    height: 119px;
+}
+
+.img_clientes{
+  display: flex;
+  justify-content: center;
+  gap: 29px;
+}
+
+.img_cliente{
+    height: 111px;
+    margin-left: 29px;
+}
+
+.map_contatos{
+    width:  320px;  
+    height: 320px;
+    margin-right: 20px;
+}
+
+.fale_conosco{
+    display: flex;
+}
+
+.conteudo_fale_conosco{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 22px;
+    margin-left: 156px;
+}
+
+.titulo_fale_conosco{
+    color: #DB0800;
+    font-size: 22px;
+    margin-top: 80px;
+
+}
+
+.paragrafo_fale_conosco{
+    font-size: 16px;
+}
+
+.form_fale_conosco{
+  display: flex;
+  
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 29px;
+}
+
+.input_contato{
+        width: 400px;
+        height: 33px;
+        background-color: #E0DED0;
+        border: none;
+        padding-left: 7px;
+        color: #949393;
+}
+
+.Mensagem_contato{
+        background-color: #E0DED0;
+        border: none;
+        padding-left: 7px;
+        color: #949393;
+        font-size: 14px;
+}
+
+.buttton_contato {
+    background-color: #E0DED0;
+    width: 93px;
+    height: 30px;
+    border: none;
+    color: #949393;
+}
+
+.btn-abrir{
+    display: none;
+}
+
+.btn-fechar{
+    display: none;
+}
+
+
+
+
+@media screen and (min-width: 1730px){
+    .cabecalho{
+        gap: 300px;
+    }
+
+    
+    footer{
+        margin-top: 143px;
+    }
+
+    .Roda_pé{
+        height: 14vh;
+        margin-top: 0px;
+    }
+
+    .Roda_pé_menu{
+        justify-content: center;
+        gap: 50px ;
+    }
+
+    .imagem_canto_fixo{
+        margin-top: 315px;
+    }
+
+    .bem-vindo__paragrafro{
+        padding: 0px 270px;
+    }
+
+    .texto_bem_vindo{
+        margin-top: 377px;
+        margin-left: 100px;
+    }
+
+    .bem-vindo__titulo{
+        padding: 0px 270px;
+        margin-top: -80px;
+    }
+
+    .conteudo_sobre_nos{
+        margin-left: 300px;
+        margin-top: 260px;
+
+    }
+
+    .direitos_privados{
+        margin-top: 50px;
+        text-align: center;
+
+    }
+
+    .paragrafo_clientes{
+        margin-top: 1px;
+    }
+
+    .texto_clientes{
+        margin-left: 220px;
+    }
+    
+    .Entrada_automatizada_conteudo{
+        margin-left: 620px;
+        margin-top: -502px;
+
+    }
+    .erp_conteudo{
+        margin-left: 620px;
+        margin-top: 60px;
+    }
+
+    .conteudo_fale_conosco{
+        margin-left: 260px;
+    }
+
+
+}
+
+
+@media screen and (max-width: 1112px){
+
+    body{
+        background-position: right 90px; 
+        background-size: 150px 250px;
+    }
+
+    /* menu mobila*/
+    .menu_mobile{
+        background-color:  #D4D5C1;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        right: 0;
+        z-index: 99999;
+        width: 0%;
+        overflow:hidden ;
+        transition: .3s;
+    }
+
+    .menu_mobile.abri-menu{
+        width: 50%;
+    }
+
+    .menu_mobile.abri-menu ~ .logo_contato_mobile{
+        display: flex;
+    }
+
+
+
+    .logo_contato{
+        display: none;
+    }
+
+
+
+    .imagem_canto_fixo{
+        display: none;
+    }
+
+  
+    .btn-fechar{
+        margin-top: 5px;
+        margin-left: 5px;
+        
+    }
+
+    .btn-abrir{
+        margin-right: 10px;
+    }
+
+
+    .menu_mobile .mobile { 
+        text-align: right;
+        display: flex;
+        flex-direction: column;
+        
+       
+    }
+
+    .menu_mobile .menu_mobile_links {
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: 300;
+        padding: 20px 10%;
+        font-family: "DM Sans", sans-serif;
+    }
+
+    .menu_mobile .menu_mobile_links:hover{
+        background-color: #BFC1A4;
+      
+
+    }
+
+    /* .logo_contato_mobile{
+       margin-top: 50px;
+       margin-left:70px;
+       margin-top: 0px;
+      
+    }  */
+
+    .cabecalho_links{
+        display: none;
+    }
+
+    .logo{
+        height: 65px;
+        width: 170px ;
+    }
+    
+ 
+
+
+    .bem-vindo__titulo{
+        width: 280px;
+    }
+
+    .bem-vindo__paragrafro{
+        width: 290px;
+    }
+
+    .texto_bem_vindo{
+        margin-left: 60px;
+        margin-top: 90px;
+        height: 583px;
+    }
+
+    .Roda_pé{
+        height: 13vh;
+        font-size: 14px;
+        opacity: none;
+        
+    }
+
+    .Roda_pé_menu{
+        gap: 15px;
+        margin-top: 19px;
+        
+    }
+
+    .Roda_pé{
+        margin-top: 107px;
+        
+    }
+
+    .direitos_privados{
+        margin-top: 5px;
+        font-size: 13px;
+    }
+
+    .btn-abrir{
+    display: block;
+}
+
+.btn-fechar{
+    display: block;
+}
+
+.conteudo_sobre_nos{
+    margin-left: 0px; 
+    margin-top: 148px ;  
+    height: 530px;
+}
+
+.paragrafo_sobre_nos{
+    width: 334px;
+    margin-left: 50px;
+}
+
+.Entrada_automatizada_conteudo{
+    margin-top: 0px;
+    margin-left: 20px;
+    gap: 10px;
+}
+
+.imagem_entrada_automatizada{
+    margin-top: 123px;
+}
+
+.sub_titulo_entrada_autpmatizada2{
+    margin-top: 8px;
+}
+
+.paragrafo_entrada_automatizada{
+    width: 313px;
+}
+
+.erp_conteudo{
+    margin-left: 20px;
+    gap: 10px;
+}
+
+.erp_paragrafo{
+    width: 313px;
+}
+
+.texto_clientes{
+    margin-left: 20px;
+    height: 683px;
+}
+.paragrafo_clientes{
+    margin-left: 12px;
+    width: 354px;
+}
+
+.img_cliente{
+    gap: 0px;
+    margin-left: -8px;
+    height: 90px;
+}
+
+.img_pontal{
+    height: 98px;
+    
+}
+
+.form{
+    margin-left: 35px;
+}
+
+.form_fale_conosco {
+ display: inline-block; 
+}
+
+.conteudo_fale_conosco{
+    margin-left: 0px;
+}
+
+.map_contatos{
+    height: 250px;
+    width: 320px;
+    margin-left: 35px;
+    margin-bottom: 10px;
+}
+
+.input_contato {
+    width: 313px;
+    height: 31px;
+    
+}
+
+.Mensagem_contato{
+    width: 313px;
+}
+
+.titulo_fale_conosco{
+    margin-top: 84px;
+}
+
+.paragrafo_fale_conosco{
+    width: 320px;  
+    margin-left: 22px;
+}
+
+
+}
